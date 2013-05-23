@@ -16,10 +16,10 @@ public class Child {
 
  
  
-    public String getName() {
+   public String getName() {
         return name;
     }
-
+/*
     public void setName(String name) {
         this.name = name;
     }
@@ -31,7 +31,7 @@ public class Child {
     public void setAge(int age) {
         this.age = age;
     }
-
+*/
     public String showingCarrot(){
         String message = rabbit.getCloser();
         return "Soy "+ name +" y le estoy mostrando una zanahoria " + message;

@@ -18,6 +18,6 @@ public class Main {
        System.out.println(child01.touchingEar());
        System.out.println(child02.touchingEar());
        
-       
+       System.out.println(child01.getName());
     }
 }
