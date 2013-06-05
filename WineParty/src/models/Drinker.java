@@ -23,6 +23,9 @@ public class Drinker {
         this.alive = false;
     }
 
-    
-    
+    public void drinkWine(Wineglass wineglass){
+        if (wineglass.isPoisoned()){
+            setDead();
+        }               
+    }        
 }
